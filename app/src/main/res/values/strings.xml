@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">sheet</string>
+    <string name="todo">TODO</string>
+    <string name="ng_nh_p">Đăng nhập</string>
+    <string name="vui_l_ng_nh_p_t_n_c_a_b_n">Vui lòng nhập tên của bạn.</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="nguy_n_duy_khang">Nguyễn Duy Khang</string>
+    <string name="b_n_s_kh_ng_bi_t_khi_n_o_b_n_b_v_c_c_quan_h_k_t_n_i_c_a_m_nh_ang_ho_t_ng_ho_c_ho_t_ng_g_n_y_tr_n_trang_c_nh_n_n_y_m_b_o_h_kh_ng_th_y_c_th_ng_tin_n_y_m_i_n_i_b_n_ang_d_ng_messenger_khi_tr_ng_th_i_ho_t_ng_c_a_b_n_s_kh_ng_hi_n_th_n_a_t_m_hi_u_th_m">Bạn sẽ không biết khi nào bạn bè và các quan hệ kết nối của mình đang hoạt động hoặc hoạt động gần đây trên trang cá nhân này.Để đàm bảo họ không thấy được thông tin này ở mọi nơi bạn đang dùng Messenger. Khi đó, trạng thái hoạt động của bạn sẽ không hiển thị nữa. Tìm hiểu thêm</string>
+</resources>

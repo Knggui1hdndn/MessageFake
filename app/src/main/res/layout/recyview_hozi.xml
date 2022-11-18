@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/mLinearLayout"
+    android:foreground="?attr/selectableItemBackground"
+
+    >
+    <FrameLayout
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            app:riv_corner_radius="27.5dp"
+            android:scaleType="centerCrop"
+
+            android:id="@+id/img_avatar_horizontal"
+            android:src="@drawable/img_2"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="bottom|end"
+            android:layout_marginLeft="25dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"                android:id="@+id/imgStatus"
+
+            >
+
+            <ImageView
+                 android:layout_width="20dp"
+                android:layout_height="20dp"
+                 android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:src="@drawable/download" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <TextView
+         android:id="@+id/name_horizontal"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Tạo cuộc gọi video" />
+
+</LinearLayout>

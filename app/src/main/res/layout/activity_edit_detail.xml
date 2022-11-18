@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".I.EditDetail">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Chỉnh sửa trang cá nhân" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/mLinearLayout"
+        android:layout_below="@id/toolBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/txt"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chỉnh sửa phần giới thiệu"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chi tiết bạn chọn sẽ hiển thi công khai" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Công việc"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:id="@+id/mLinearLayoutWork"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerviewWork"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/btnAddWork"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                         android:background="#66C7C4CA"
+                        android:gravity="center"
+                        android:text="Thêm nghề nghiệp"
+                        android:textAllCaps="false"
+                        android:textSize="16dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Học vấn"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerviewEducation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"
+                    android:layout_marginTop="10dp">
+
+
+                <Button
+                        android:id="@+id/btnAddEducation"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#66C7C4CA"
+                        android:gravity="center"
+                        android:text="Thêm trường học"
+                        android:textAllCaps="false"
+                        android:textSize="16dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tỉnh/Thành phố hiện tại"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/ckHabitat"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:buttonTint="@color/purple_500"
+                        android:drawableRight="@drawable/pen"
+                        android:text="Sống tại Hà Nội"
+                        android:textSize="17.5dp" />
+
+                    <View
+                        android:id="@+id/viewHabitat"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|right" />
+                </FrameLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"                     android:layout_marginTop="10dp">
+
+
+                <Button
+
+                        android:id="@+id/btnAddHabitat"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+
+                         android:background="#66C7C4CA"
+                        android:gravity="center"
+                        android:text="Thêm nghề nghiệp"
+                        android:textAllCaps="false"
+                        android:textSize="16sp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quê quán"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"                     android:layout_marginTop="10dp">
+
+
+                <CheckBox
+                        android:id="@+id/ckAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:buttonTint="@color/purple_500"
+                        android:drawableRight="@drawable/pen"
+                        android:text="Sống tại Hà Nội"
+                        android:textSize="17.5dp" />
+
+                    <View
+                        android:id="@+id/viewAddress"
+
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|right" />
+                </FrameLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"                     android:layout_marginTop="10dp">
+
+
+                <Button
+                        android:id="@+id/btnAddAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                         android:background="#66C7C4CA"
+                        android:gravity="center"
+
+                        android:text="Thêm nghề nghiệp"
+                        android:textAllCaps="false"
+                        android:textSize="16dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+
+
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mối quan hệ"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"                     android:layout_marginTop="10dp">
+
+
+                <CheckBox
+                        android:id="@+id/ckRelationship"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:buttonTint="@color/purple_500"
+                        android:drawableRight="@drawable/pen"
+                        android:text="Sống tại Hà Nội"
+                        android:textSize="17.5dp" />
+
+                    <View
+                        android:id="@+id/viewRelationship"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical|right" />
+                </FrameLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="10dp"                     android:layout_marginTop="10dp">
+
+
+                <Button
+                        android:id="@+id/btnAddRelationship"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                         android:background="#66C7C4CA"
+                        android:gravity="center"
+                        android:text="Thêm mối quan hệ"
+                        android:textAllCaps="false"
+                        android:textSize="16dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.8dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/purple_200" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/mLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/purple_200" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/purple_500"
+            android:gravity="center"
+            android:padding="13dp"
+            android:text="Lưu"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

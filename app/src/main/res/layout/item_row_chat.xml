@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     android:padding="15dp">
+
+    <TextView
+        android:id="@+id/txtNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/s"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/item_chat"
+        android:gravity="center|start"
+        android:padding="15dp"
+        android:text="Chào Khang"
+        android:textColor="@color/black" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="7:46"
+    android:id="@+id/s1"
+    android:layout_below="@id/txtNhan"
+    />
+
+    <TextView
+        android:id="@+id/s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtGui"
+        android:layout_alignParentRight="true"
+
+        android:text="7:46" />
+
+    <TextView
+        android:id="@+id/txtGui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/item_chat2"
+        android:gravity="center|right"
+        android:padding="15dp"
+        android:text="Chào Khang"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The bottom layer is blue square.-->
+    <item>
+        <shape>
+            <solid android:color="@color/white" />
+
+        </shape>
+
+    </item>
+    <item android:drawable="@drawable/night_half_moon_icon_176424"
+        />
+
+
+
+
+</layer-list>

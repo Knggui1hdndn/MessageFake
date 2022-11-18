@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomSheet"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:behavior_hideable="true"
+     app:behavior_peekHeight="0dp"
+    android:background="@drawable/bottomsheet"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+<!--    <com.google.android.material.bottomappbar.BottomAppBar-->
+<!--        android:id="@+id/bottomAppBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:backgroundTint="@color/black"-->
+<!--        app:fabCradleMargin="10dp"-->
+<!--        app:fabCradleRoundedCornerRadius="10dp"-->
+<!--        app:fabCradleVerticalOffset="10dp">-->
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/bottomNavigationView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginEnd="16dp"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            app:itemIconTint="@color/bottom_nav"-->
+<!--            app:itemTextColor="@color/bottom_nav"-->
+
+<!--            app:menu="@menu/bottom_nav_menu" />-->
+
+<!--    </com.google.android.material.bottomappbar.BottomAppBar>-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/fab"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:contentDescription="@string/app_name"-->
+<!--        android:src="@drawable/ic_baseline_groups_24"-->
+<!--        app:layout_anchor="@id/bottomAppBar" />-->
+    android:background="@drawable/bottomsheet"
+
+    <RelativeLayout
+          android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/white"
+        >
+        behavior_hideable ẩn khi vuốt thu nhỏ
+        behavior_peekHeight chiều dài khi thu nhỏ
+
+        <Button
+
+            android:id="@+id/img"
+            android:layout_width="35dp"
+            android:layout_height="4dp"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@color/black"
+            android:enabled="false"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <android.widget.Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_save_alt_24"
+            android:drawablePadding="15dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="start|center"
+            android:paddingLeft="20dp"
+            android:text="Lưu trữ"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <android.widget.Button
+            android:id="@+id/btndelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSave"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_delete_24"
+            android:drawablePadding="15dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="start|center"
+            android:paddingLeft="20dp"
+            android:text="Xóa"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <android.widget.Button
+            android:id="@+id/btnTatThongBao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btndelete"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_notifications_off_24"
+            android:drawablePadding="15dp"
+
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="start|center"
+            android:paddingLeft="20dp"
+            android:stateListAnimator="@null"
+            android:text="Tắt thông báo"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+
+            />
+
+        <android.widget.Button
+            android:id="@+id/btnDanhDau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTatThongBao"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_wifi_tethering_error_24"
+            android:drawablePadding="15dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="start|center"
+            android:paddingLeft="20dp"
+            android:text="Đánh dấu là chưa đọc"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <android.widget.Button
+            android:id="@+id/btnChan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnDanhDau"
+            android:background="@null"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_block_24"
+            android:drawablePadding="15dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="start|center"
+            android:paddingLeft="20dp"
+            android:text="Chặn"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+

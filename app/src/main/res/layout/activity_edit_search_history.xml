@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editSearchHistory"
+    android:background="?attr/background_color"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar"
+        android:padding="15dp"
+
+        >
+
+        <TextView
+
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="left"
+            android:text="Các chi tiết thay đổi sẽ chỉ áp dung cho danh sách tìm kiếm
+gần đây, thuộc phần ịch sử tìm kiếm trên thiết bị này."
+            android:textColor="#AA9B9B" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt"
+            android:layout_alignBottom="@+id/btndelete"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Tìm kiếm gần đây"
+            android:textColor="#AA9B9B" />
+
+        <Button
+            android:id="@+id/btndelete"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txt"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:fontFamily="sans-serif-medium"
+            android:foreground="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:text="Xóa tất cả"
+            android:textColor="@color/purple_500" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btndelete"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</RelativeLayout>

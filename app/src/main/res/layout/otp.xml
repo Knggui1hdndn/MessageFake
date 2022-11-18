@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/otp"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác thực OTP"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng nhập mã OTP được gửi về SĐT ... để hoàn tất đăng kí."
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:visibility="gone"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#E60D0D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu phải có tối thiểu 6 chữ cái,số và kí tự đặc biệt."
+        android:gravity="center_horizontal"
+        />
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:endIconMode="password_toggle"
+            android:layout_marginTop="30dp"
+           android:id="@+id/mTextInputLayout"
+
+           >
+
+           <EditText
+               android:layout_width="267dp"
+               android:layout_height="wrap_content"
+               android:hint="Nhập mã OTP"
+               android:backgroundTint="@color/black"
+               android:inputType="textPassword"
+               tools:ignore="SpeakableTextPresentCheck" />
+       </com.google.android.material.textfield.TextInputLayout>
+       <Button
+           android:layout_marginTop="15dp"
+           android:layout_width="53dp"
+           android:layout_height="53dp"
+           android:text="Gửi lại OTP"
+           android:textAllCaps="false"
+           android:background="@drawable/button_otp"
+           android:backgroundTint="@color/white"
+           android:textColor="@color/black"
+           android:fontFamily="sans-serif-black"
+           android:id="@+id/sendOTP"
+           />
+   </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="9dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_height="wrap_content"
+            android:text="Xác nhận"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background ="@color/purple_500"
+            android:foreground="?attr/selectableItemBackground"
+android:id="@+id/Confirm"
+            />
+    </androidx.cardview.widget.CardView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proggess"
+        android:visibility="gone"/>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+   >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="m.me/"
+        android:layout_margin="7dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:gravity="start|center"
+        android:paddingStart="5dp"
+        android:id="@+id/btnEdit"
+        android:drawablePadding="8dp"
+        android:text="Chỉnh sửa tên người dùng"
+        android:textAllCaps="false" />
+</LinearLayout>

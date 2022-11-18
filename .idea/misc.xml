@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable-v24/ic_baseline_camera1_alt_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/audiocall.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bottomsheet.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/button.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/button_otp.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/customedittext.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_add_to_home_screen_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_arrow_back_black24.xml" value="0.1" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_block_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_cached_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_cameraswitch_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_contact_support_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_groups_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_insert_emoticon_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_keyboard_backspace_245.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_keyboard_backspace_2452.xml" value="0.121" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_mark_email_unread_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_mic_off_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_notifications_off_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_person_pin_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_radio_button_checked_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.2035" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_save_254.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_save_alt_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_videocam_245.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_videocam_off_24.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_volume_off_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_wifi_calling_3_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_wifi_tethering_error_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_outline_search_24.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/item_chat.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/item_chat2.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/miccall.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/vien.xml" value="0.1415" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/account_name.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_create_account.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_dark_mode.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_edit_search_history.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_forgotpassword.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_incoming_call.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_install_of_my.xml" value="0.264" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main3.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_outgoing_call.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/adapter_search_view.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/birth_day.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/cuocgoiden.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/dialog_loading.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_recyview_recent_search.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_row_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_search_recent.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/main_content.xml" value="0.2" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/otp.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_hozi.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_verti.xml" value="0.536" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/menu/bottom_nav_menu.xml" value="0.11041666666666666" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/menu/menu_main_content.xml" value="0.25" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1215" />
+        <entry key="..\:/Users/Duong/AndroidStudioProjects/MessageFake/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1215" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bottomsheet.xml" value="0.1405" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_keyboard_backspace_245.xml" value="0.2385" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_archived_messages.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_create_account.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_dark_mode.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_install_of_my.xml" value="0.264" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main3.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_message_is_waiting.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_outgoing_call.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_status_custom.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/adapter_search_view.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/authenticate_with.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/birth_day.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/block_user.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/blocked.xml" value="0.264" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/dialog.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/dialog_loading.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_Archied.xml" value="0.264" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_archied.xml" value="0.2" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_buttom_sheet.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_message_waiting.xml" value="0.4" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_recyview_recent_search.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_row_chat.xml" value="0.1609375" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_search_recent.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/main_content.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/name.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/no_connection.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/notice_to_strangers.xml" value="0.264" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/otp.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/password.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/phone_number.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_hozi.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_verti.xml" value="0.25" />
+        <entry key="..\:/Users/manhl/AndroidStudioProjects/MessageFake/app/src/main/res/layout/sex.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable-v24/bgr.xml" value="0.163" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable-v24/ic_baseline_camera1_alt_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable-v24/ic_baseline_fmd_good_241.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable-v24/ic_baseline_home_241.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/audiocall.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bgr.xml" value="0.163" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bgr1.xml" value="0.163" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bgr2.xml" value="0.163" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bgr3.xml" value="0.163" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/bottomsheet.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/cam.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_add_to_home_screen_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_arrow_back_black24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_block_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_cached_24.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_create_24.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_fmd_good_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_home_repair_service_24.xml" value="0.169" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1685" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/item_chat.xml" value="0.12" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/item_chat2.xml" value="0.12" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/drawable/vien.xml" value="0.12" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_archived_messages.xml" value="0.1" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_chat.xml" value="0.1" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_chat2.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_dark_mode.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_edit_detail.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_edit_name.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_edit_personal_page.xml" value="0.18" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_edit_story.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_install_of_my.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_main3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_message_is_waiting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_personal_friends.xml" value="0.33" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_personal_page.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/activity_status_custom.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/adapter_search_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/block_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/dialog_img.xml" value="0.203125" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/dialog_loading.xml" value="0.2" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/edit_name.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_archied.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_buttom_sheet.xml" value="0.33" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_detail.xml" value="0.25" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_edit_detail.xml" value="0.18" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_friends.xml" value="0.14" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_message_waiting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_recyview_recent_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_row_chat.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/item_search_recent.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/main_content.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/no_connection.xml" value="0.10885416666666667" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/notice_to_strangers.xml" value="0.22" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_hozi.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/layout/recyview_verti.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/nguye/AndroidStudioProjects/MessageFake/app/src/main/res/menu/save.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

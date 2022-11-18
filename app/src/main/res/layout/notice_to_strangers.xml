@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/mLinearLayout"
+  >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#A19C9C" />
+
+    <TextView
+        android:id="@+id/txtThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Nếu bạn trả lời, Phạm Luyến cũng sẽ có thể gọi cho bạn,\nxem các thông tin như trạng thái hoạt động và thời điểm\nbạn đọc tin nhắn."
+        android:textColor="#C6A19C9C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:weightSum="10"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:elevation="0dp"
+            android:padding="15dp"
+            app:cardCornerRadius="18dp">
+
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:gravity="center"
+                android:text="Xóa"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5"
+            app:cardCornerRadius="18dp">
+
+            <Button
+                android:id="@+id/btnChan"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+
+                android:gravity="center"
+                android:text="Chặn"
+                tools:ignore="TouchTargetSizeCheck" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>
+
+
+

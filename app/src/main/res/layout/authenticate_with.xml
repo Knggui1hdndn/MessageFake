@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text=",chúng tôi sẽ gửi mã cho bạn để xác nhận ràng tài khoản này là của bạn"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+    <RadioButton
+
+        android:id="@+id/sendEmail"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:button="@drawable/radiobutton"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="25dp"
+        android:text="Gửi qua email"
+        android:textAllCaps="false" />
+
+
+    <RadioButton
+        android:id="@+id/sendPhoneNumber"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:button="@drawable/radiobutton"
+        android:gravity="start|center_vertical"
+        android:paddingLeft="25dp"
+        android:text="Gửi qua số điện thoại"
+        android:textAllCaps="false" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="7dp">
+
+        <Button
+            android:id="@+id/continue_authenticate"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-black"
+            android:text="Tiếp tục"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

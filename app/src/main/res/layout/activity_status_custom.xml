@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingEnd="15dp"
+    android:paddingStart="15dp"
+    tools:context=".I.DarkMode"
+    android:background="?attr/background_color"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Trạng thái hoạt động" />
+
+    <Switch
+        android:id="@+id/switch1"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiển thị khi bạn hoạt động"
+     />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/b_n_s_kh_ng_bi_t_khi_n_o_b_n_b_v_c_c_quan_h_k_t_n_i_c_a_m_nh_ang_ho_t_ng_ho_c_ho_t_ng_g_n_y_tr_n_trang_c_nh_n_n_y_m_b_o_h_kh_ng_th_y_c_th_ng_tin_n_y_m_i_n_i_b_n_ang_d_ng_messenger_khi_tr_ng_th_i_ho_t_ng_c_a_b_n_s_kh_ng_hi_n_th_n_a_t_m_hi_u_th_m"
+    android:id="@+id/txt"
+/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+     android:id="@+id/view"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Lỗi"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="Không có kết nối mạng.Vui lòng kiểm tra lại kết lỗi mạng của bạn để hoàn tất đăng kí"
+            android:textSize="15sp"
+            android:id="@+id/suggest"/>
+
+        <Button
+            android:id="@+id/load"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#B4B3B5"
+            android:fontFamily="sans-serif-black"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="Thử lại"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/proggess"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+
+        />
+
+</FrameLayout>

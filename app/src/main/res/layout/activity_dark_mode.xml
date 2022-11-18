@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingEnd="15dp"
+    android:paddingLeft="15dp"
+    tools:context=".I.DarkMode"
+    android:background="?attr/background_color"
+
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         app:title="Chế đô tối"
+        ></androidx.appcompat.widget.Toolbar>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/group">
+
+        <RadioButton
+            android:id="@+id/rdiTat"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:button="@drawable/radiobutton"
+            android:checked="true"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Tắt"
+            android:textAllCaps="false" />
+
+
+        <RadioButton
+            android:id="@+id/rdiBat"
+
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:button="@drawable/radiobutton"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Bật"
+            android:textAllCaps="false" />
+
+        <RadioButton
+            android:id="@+id/rdiHeThong"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:button="@drawable/radiobutton"
+            android:gravity="start|center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Hệ thống"
+            android:textAllCaps="false" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:text="Nếu bạn chọn hệ thống ,Messenger sẽ tự động điểu chỉnh giao diện theo cài đặt của hệ thống trên thiết bị" />
+</LinearLayout>

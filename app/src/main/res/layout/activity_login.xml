@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFBFB"
+    tools:context=".Account.login"
+
+    >
+    android:background="#ffffff"
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal"
+       android:orientation="vertical"
+   >
+       <ImageView
+           android:layout_marginTop="20dp"
+           android:layout_width="280dp"
+           android:layout_height="180dp"
+           android:backgroundTint="@color/purple_500"
+           android:contentDescription="@string/todo"
+           android:src="@drawable/logo"
+ />
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:endIconMode="clear_text"
+           android:id="@+id/edtAccount"
+            >
+
+           <EditText
+               android:backgroundTint="@color/black"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="30dp"
+               android:hint="Số điện thoại hoặc email"
+               android:inputType="text"
+
+               android:paddingBottom="10dp"
+               tools:ignore="SpeakableTextPresentCheck" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           app:endIconMode="password_toggle"
+           android:id="@+id/edtPassword"
+
+           >
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_marginLeft="30dp"
+               android:layout_marginTop="10dp"
+               android:layout_marginRight="30dp"
+               android:hint="Mật khẩu"
+               android:inputType="textPassword"
+               android:paddingBottom="10dp"
+               android:backgroundTint="@color/black"
+
+               tools:ignore="SpeakableTextPresentCheck" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <Button
+           android:id="@+id/btnLogin"
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginRight="30dp"
+           android:backgroundTint="@color/purple_500"
+           android:fontFamily="sans-serif-black"
+           android:foreground="?attr/selectableItemBackground"
+           android:text="@string/ng_nh_p"
+           android:textAllCaps="false"
+           android:textColor="@color/white"
+
+           android:textSize="15sp" />
+
+       <Button
+           android:id="@+id/Forgot_password"
+           android:layout_width="wrap_content"
+           android:layout_height="40dp"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif-black"
+           android:foreground="?attr/selectableItemBackground"
+           android:text="Quên mật khẩu?"
+           android:textAllCaps="false"
+
+           android:backgroundTint="@color/white"
+           android:textColor="@color/black" />
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginRight="30dp"
+           android:gravity="center_vertical"
+           android:orientation="horizontal"
+           android:weightSum="10">
+
+           <View
+               android:layout_width="0dp"
+               android:layout_height="2dp"
+               android:layout_weight="4.5"
+               android:background="#A39D9D" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:text="HOẶC"
+               android:textColor="@color/black" />
+
+           <View
+               android:layout_width="0dp"
+               android:layout_height="2dp"
+               android:layout_weight="4.5"
+               android:background="#A39D9D" />
+       </LinearLayout>
+
+       <Button
+           android:id="@+id/createAccount"
+           android:layout_width="263dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="80dp"
+           android:layout_marginTop="50dp"
+           android:layout_marginRight="80dp"
+           android:backgroundTint="#0AA510"
+           android:textColor="@color/white"
+           android:fontFamily="sans-serif-black"
+           android:foreground="?attr/selectableItemBackground"
+           android:text="Tạo tài khoản mới"
+           android:textAllCaps="false"
+
+           android:textSize="15sp" />
+
+   </LinearLayout>
+
+
+</FrameLayout>
